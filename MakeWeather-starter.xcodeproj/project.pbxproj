@@ -13,6 +13,7 @@
 		558245F01D90EEEF00827A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558245EE1D90EEEF00827A1F /* Main.storyboard */; };
 		558245F21D90EEEF00827A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558245F11D90EEEF00827A1F /* Assets.xcassets */; };
 		558245F51D90EEEF00827A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558245F31D90EEEF00827A1F /* LaunchScreen.storyboard */; };
+		69A3076A1D93CBFB00267814 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A307691D93CBFB00267814 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		558245F11D90EEEF00827A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558245F41D90EEEF00827A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		558245F61D90EEEF00827A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A307691D93CBFB00267814 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		FF8898C9266951FC3166074A /* Pods_MakeWeather_starter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeWeather_starter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				558245EA1D90EEEF00827A1F /* AppDelegate.swift */,
 				558245EC1D90EEEF00827A1F /* ViewController.swift */,
 				558245EE1D90EEEF00827A1F /* Main.storyboard */,
+				69A307691D93CBFB00267814 /* CollectionViewCell.swift */,
 				558245F11D90EEEF00827A1F /* Assets.xcassets */,
 				558245F31D90EEEF00827A1F /* LaunchScreen.storyboard */,
 				558245F61D90EEEF00827A1F /* Info.plist */,
@@ -213,6 +216,7 @@
 			files = (
 				558245ED1D90EEEF00827A1F /* ViewController.swift in Sources */,
 				558245EB1D90EEEF00827A1F /* AppDelegate.swift in Sources */,
+				69A3076A1D93CBFB00267814 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

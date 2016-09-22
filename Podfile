@@ -6,7 +6,7 @@ target 'MakeWeather-starter' do
   use_frameworks!
 
   pod 'YWeatherAPI'
-
+  pod 'SwiftyJSON', git: 'https://github.com/BaiduHiDeviOS/SwiftyJSON.git', branch: 'swift3'
   # Pods for MakeWeather-starter
 
 end

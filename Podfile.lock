@@ -20,16 +20,29 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - SwiftyJSON (2.3.2)
   - YWeatherAPI (1.0.7):
     - AFNetworking (~> 2.0)
 
 DEPENDENCIES:
+  - SwiftyJSON (from `https://github.com/BaiduHiDeviOS/SwiftyJSON.git`, branch `swift3`)
   - YWeatherAPI
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: de5dc3b1b421805769590d331178551bbb0e5733
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  SwiftyJSON: 6118fb49d7519c4d31a0c1f3d5af936e9047b556
   YWeatherAPI: dac8f21686655176e2dfbc2a0087154e67ae136e
 
-PODFILE CHECKSUM: 07aeba11599a597a015901120508dc367f50fecb
+PODFILE CHECKSUM: c7d91ac73002153b7ad1abd80c26953c8ed59703
 
 COCOAPODS: 1.0.1
